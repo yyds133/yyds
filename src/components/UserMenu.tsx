@@ -1188,6 +1188,7 @@ export const UserMenu: React.FC = () => {
           <div className='my-1 border-t border-gray-200 dark:border-gray-700'></div>
 
           {/* 版本信息 */}
+          {/*
           <button
             onClick={() => {
               setIsVersionPanelOpen(true);
@@ -1211,6 +1212,7 @@ export const UserMenu: React.FC = () => {
                 )}
             </div>
           </button>
+          */}
         </div>
       </div>
     </>
@@ -2492,11 +2494,10 @@ export const UserMenu: React.FC = () => {
         createPortal(favoritesPanel, document.body)}
 
       {/* 版本面板 */}
-      {/* <VersionPanel
+      <VersionPanel
         isOpen={isVersionPanelOpen}
         onClose={() => setIsVersionPanelOpen(false)}
-      />
-      */}
+      />      
     </>
   );
 };
