@@ -2492,10 +2492,11 @@ export const UserMenu: React.FC = () => {
         createPortal(favoritesPanel, document.body)}
 
       {/* 版本面板 */}
-      <VersionPanel
+      {/* <VersionPanel
         isOpen={isVersionPanelOpen}
         onClose={() => setIsVersionPanelOpen(false)}
       />
+      */}
     </>
   );
 };
