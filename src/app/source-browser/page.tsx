@@ -549,6 +549,7 @@ export default function SourceBrowserPage() {
     <PageLayout activePath='/source-browser'>
       <div className='max-w-7xl mx-auto space-y-6 -mt-6 md:mt-0'>
         {/* Header - 美化版 */}
+        {/*
         <div className='relative'>
           <div className='absolute inset-0 bg-linear-to-r from-emerald-400/10 via-green-400/10 to-teal-400/10 rounded-2xl blur-3xl'></div>
           <div className='relative flex items-center gap-4 bg-white/80 dark:bg-gray-800/80 backdrop-blur-xl rounded-2xl p-6 border border-gray-200/50 dark:border-gray-700/50 shadow-xl'>
@@ -574,6 +575,7 @@ export default function SourceBrowserPage() {
             )}
           </div>
         </div>
+        */}
 
         {/* Sources - 美化版 */}
         <div className='bg-linear-to-br from-white via-emerald-50/30 to-white dark:from-gray-800 dark:via-emerald-900/10 dark:to-gray-800 rounded-2xl shadow-lg border border-gray-200/80 dark:border-gray-700/80 backdrop-blur-sm'>
